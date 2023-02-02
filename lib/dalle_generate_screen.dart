@@ -12,7 +12,7 @@ class DallEGenerateScreen extends StatefulWidget {
 
 class _DallEGenerateScreenState extends State<DallEGenerateScreen> {
   TextEditingController input = TextEditingController();
-  String apiKey = "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";
+  String apiKey = "YourApiKey";
   String url = "https://api.openai.com/v1/images/generations";
   String? image;
   String errorReason = "";
